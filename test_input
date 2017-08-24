@@ -1,0 +1,31 @@
+class Program{
+    int x,y[100];
+    boolean z,t[20];
+    void checkFunction (int a, boolean b){
+		int a,b;
+		a = 5;
+		a = -t-3;
+		b = -a;
+		if( (a == 5 && b == -5) || ( b != -3) )
+		{
+			callout("test");
+			continue;
+		}
+		else
+		{
+			foo(a+b);
+			break;
+		}
+    }
+    
+  	boolean testReturn(boolean c) {
+  		return (!c);
+	}
+
+   boolean testIf(int i) {
+	   if(i == 0) 
+	  {
+               return i;
+	  }
+   }
+}

@@ -1,0 +1,102 @@
+CLASS 
+{
+INT_DECLARATION 
+ID: x
+,
+ID: y
+[
+INT: 100
+]
+;
+BOOLEAN_DECLARATION 
+ID: z
+,
+ID: t
+[
+INT: 20
+]
+;
+ID: checkFunction
+(
+INT_DECLARATION 
+ID: a
+,
+BOOLEAN_DECLARATION 
+ID: b
+)
+{
+INT_DECLARATION 
+ID: a
+,
+ID: b
+;
+ID: a
+INT: 5
+;
+ID: a
+ID: t
+INT: 3
+;
+ID: b
+ID: a
+;
+(
+(
+ID: a
+INT: 5
+ID: b
+INT: 5
+)
+(
+ID: b
+INT: 3
+)
+)
+{
+CALLOUT 
+(
+STRING: "test"
+)
+;
+;
+}
+{
+ID: foo
+(
+ID: a
+ID: b
+)
+;
+;
+}
+}
+BOOLEAN_DECLARATION 
+ID: testReturn
+(
+BOOLEAN_DECLARATION 
+ID: c
+)
+{
+(
+!
+ID: c
+)
+;
+}
+BOOLEAN_DECLARATION 
+ID: testIf
+(
+INT_DECLARATION 
+ID: i
+)
+{
+(
+ID: i
+INT: 0
+)
+{
+ID: i
+;
+}
+}
+}
